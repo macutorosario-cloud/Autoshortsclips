@@ -15,3 +15,4 @@ duration,
 output_file,
 ]
 subprocess.run(command)
+cortar_video("input.mp4", "output_clip.mp4", "00:01:00", "00:00:30")
